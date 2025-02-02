@@ -1,9 +1,14 @@
 {
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "975a31b1bba1e5b13ef53e6b3d59cf0b",
     "packages": [
         {
             "name": "wpfactory/wpfactory-admin-menu",
             "version": "v1.0.3",
-            "version_normalized": "1.0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wpcodefactory/wpfactory-admin-menu.git",
@@ -18,9 +23,7 @@
             "require-dev": {
                 "wp-cli/wp-cli-bundle": "*"
             },
-            "time": "2024-10-14T14:01:02+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "classmap": [
                     "src/php/"
@@ -49,12 +52,11 @@
                 "source": "https://github.com/wpcodefactory/wpfactory-admin-menu/tree/v1.0.3",
                 "issues": "https://github.com/wpcodefactory/wpfactory-admin-menu/issues"
             },
-            "install-path": "../wpfactory/wpfactory-admin-menu"
+            "time": "2024-10-14T14:01:02+00:00"
         },
         {
             "name": "wpfactory/wpfactory-cross-selling",
             "version": "v1.0.3",
-            "version_normalized": "1.0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wpcodefactory/wpfactory-cross-selling.git",
@@ -72,9 +74,7 @@
             "require-dev": {
                 "wp-cli/wp-cli-bundle": "*"
             },
-            "time": "2024-10-31T15:55:35+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "classmap": [
                     "src/php/"
@@ -103,9 +103,16 @@
                 "source": "https://github.com/wpcodefactory/wpfactory-cross-selling/tree/v1.0.3",
                 "issues": "https://github.com/wpcodefactory/wpfactory-cross-selling/issues"
             },
-            "install-path": "../wpfactory/wpfactory-cross-selling"
+            "time": "2024-10-31T15:55:35+00:00"
         }
     ],
-    "dev": true,
-    "dev-package-names": []
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
